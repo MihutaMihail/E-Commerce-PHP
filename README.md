@@ -1,7 +1,18 @@
 ## Table of Contents
 
+- [Introduction](#introduction)
+- [Demo Youtube](#demo-youtube)
 - [Installation](#installation)
 - [Prepare environnement](#prepare-environnement)
+- [Role in the project](#role-in-the-project)
+- [Notes](#notes)
+
+## Introduction
+This is a PHP project where the goal is to create a e-commerce website. Users would be able to create an account on the platform, and publish their own products to sell or buy.
+
+## Demo Youtube
+#### Click on the image
+[![Watch the video](https://img.youtube.com/vi/ZtMCAN9AFzk/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZtMCAN9AFzk)
 
 ## Installation
 
@@ -68,3 +79,13 @@ auth_password=your-app-password
 
 **IMPORTANT** <br>
 Be careful as to not have any **;** (semicolon) preceding the aforementioned settings to update. This means that the line will be considered a comment and will not be taken into account.
+
+## Role in the project
+This project has been made by two people, myself included. My part consisted of handling the backend, while the frontend has been done by the other member hence the distinct folders **Backend** and **FrontEnd**. <br>
+
+I have used a MVC (Model-View-Controller) architecture to better organize the website functions. All the work inside the **Backend** folder has been completed by me.
+
+## Notes
+• If a not connected user tries to add a product to their cart, an error is returned instead of being redirected to the login page.
+
+• As seen in the video, checking out does not include a paying system.
